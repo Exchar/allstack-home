@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
-import { RocketIcon } from "lucide-react";
+// import { BotIcon } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <Link
-      href="https://github.com/weijunext/landing-page-boilerplate"
-      target="_blank"
+      href="https://chat.allstack.online"
+      target="_self"
       rel="noopener noreferrer nofollow"
     >
       <Button
@@ -14,7 +15,7 @@ const CTAButton = ({ locale }: { locale: any }) => {
         className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white"
         aria-label="Get Boilerplate"
       >
-        <RocketIcon />
+        <Image width="24" height="24" src={'/images/robot.png'} alt="robot-chat"></Image>
         {locale.title}
       </Button>
     </Link>

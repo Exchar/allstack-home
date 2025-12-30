@@ -1,9 +1,9 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
-    "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "title1": "Use",
+    "title2": "AllStack AI Chat",
+    "title3": "",
+    "description": "AllStack AI Chat - An AI chat tool that integrates domestic and international large models. Affordable and user-friendly, designed for both regular users and developers."
   },
   "SocialProof": {
     "maker": "makers ship fast"
@@ -42,6 +42,6 @@
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Source Code"
+    "title": "Start Chatting"
   }
 }

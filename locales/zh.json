@@ -1,47 +1,47 @@
 {
   "Hero": {
-    "title1": "快速构建",
-    "title2": "落地页",
+    "title1": "使用",
+    "title2": "AllStack AI Chat",
     "title3": "",
-    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+    "description": "AllStack AI Chat - 一个集合国内外大模型的AI聊天工具，便宜好用，面向普通用户和程序开发者。支持各种国内外大模型，价格实惠。"
   },
   "SocialProof": {
-    "maker": "制作者快速开发"
+    "maker": "都在使用"
   },
   "Showcase": {
     "title": "Showcase",
-    "description": "与1000+创作者一起，使用我们的落地页模板提升转化率"
+    "description": "他们都在使用"
   },
   "Feature": {
     "title": "Feature"
   },
   "Pricing": {
     "title": "定价",
-    "title2": "拥有无限访问权限",
-    "description": "你当前查看的页面是一个开源的、免费的模板。",
+    "title2": "我们确保免费使用同样拥有良好的体验",
+    "description": "当然，成为会员是最好的选择，你可以无限制的使用你的助手",
     "doYouLike": "你喜欢这个落地页模板吗？",
     "follow": "关注我的推特。"
   },
   "Testimonials": {
     "title": "Testimonials",
-    "description1": "如果你使用这个落地页模板并在推特上推荐了，",
-    "description2": "请告诉我",
-    "description3": "，我会在这里展示你的推文和推荐。"
+    "description1": "",
+    "description2": "",
+    "description3": ""
   },
   "FAQ": {
     "title": "FAQs",
     "description": "这里有一些最常见的问题。"
   },
   "CTA": {
-    "title": "立即构建你的落地页",
-    "description1": "构建",
-    "description2": "你的落地页，",
-    "description3": "展示",
-    "description4": "你的产品，并开始",
-    "description5": "赚取收入",
+    "title": "开始使用AllStack AI Chat",
+    "description1": "使用",
+    "description2": "开放式的插件",
+    "description3": "打造",
+    "description4": "专属助手，成为您的",
+    "description5": "私人伙伴",
     "description6": "！"
   },
   "CTAButton": {
-    "title": "获取源码"
+    "title": "开始聊天"
   }
 }

@@ -8,25 +8,30 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "create-docker-image": "docker build -t landing-page-boilerplate .",
-    "save-docker-image": "docker save -o landing-page-boilerplate.tar landing-page-boilerplate",
-    "docker": "npm run build && npm run postbuild && npm run create-docker-image && npm run save-docker-image"
+    "create-docker-image": "docker build -t allstack-home .",
+    "save-docker-image": "docker save -o allstack-home.tar allstack-home",
+    "docker": "npm run build && npm run postbuild && npm run create-docker-image && npm run save-docker-image",
+    "docker:build": "docker build -t allstack-home .",
+    "docker:run": "docker run -p 3000:3000 --name allstack-home-container allstack-home",
+    "docker:compose-up": "docker-compose up -d",
+    "docker:compose-down": "docker-compose down",
+    "docker:push": "docker login && docker tag allstack-home exchar/allstack-home:latest && docker push exchar/allstack-home:latest"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
     "@iconify/react": "^5.0.1",
-    "@nextui-org/react": "^2.2.10",
+    "@nextui-org/react": "^2.6.11",
     "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-slot": "^1.0.2",
     "@types/jsdom": "^21.1.7",
-    "@vercel/analytics": "^1.1.2",
+    "@vercel/analytics": "^1.6.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "framer-motion": "^11.0.14",
+    "framer-motion": "^12.23.26",
     "jsdom": "^24.1.1",
     "lucide-react": "^0.316.0",
     "negotiator": "^0.6.3",
-    "next": "14.1.0",
+    "next": "16.1.0-canary.19",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
@@ -46,8 +51,12 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "next-sitemap": "^4.2.3",
+    "pnpm": "8.15.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.5.3"
+  },
+  "overrides": {
+    "next": "16.1.0-canary.19"
   }
 }

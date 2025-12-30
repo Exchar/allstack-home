@@ -1,126 +1,76 @@
 export const FAQS_EN = [
   {
-    title: "What is a landing page?",
+    title: "What is AllStack AI Chat?",
     content:
-      "A landing page is a standalone web page created specifically for a marketing or advertising campaign. It's where a visitor 'lands' after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web. Unlike web pages, which typically have many goals and encourage exploration, landing pages are designed with a single focus or goal, known as a call to action (CTA).",
+      "AllStack AI Chat is an AI chat tool that integrates various domestic and international large models. It provides an affordable and user-friendly solution for both regular users and developers, offering access to multiple AI models in one platform.",
   },
   {
-    title: "How can I create a landing page?",
+    title: "Which AI models are supported?",
     content:
-      "Creating a landing page can be done in several steps: 1) Choose a landing page template that fits your campaign's needs or start from scratch. 2) Identify your landing page's objective and CTA. 3) Write compelling content that urges visitors to take action. 4) Incorporate design elements such as images, videos, and forms that align with your message. 5) Test your page's usability and mobile responsiveness. 6) Use SEO best practices to help your page get found. 7) Publish your landing page and monitor its performance to make adjustments as needed.",
+      "Our platform supports a wide range of popular AI models, including both domestic and international ones. You can access different models based on your needs and preferences.",
   },
   {
-    title: "Why is a landing page important?",
+    title: "Is it affordable compared to other AI services?",
     content:
-      "Landing pages are crucial for any marketing strategy because they provide a targeted platform for converting visitors into leads or customers. Unlike general websites, landing pages focus the visitor's attention on a single offer, minimizing distractions and guiding them towards a specific action. This focused approach can significantly increase the effectiveness of your marketing campaigns, improve your ad performance, and enhance the overall user experience by providing them with the information or solution they were seeking.",
+      "Yes, our service is designed to be cost-effective. We offer competitive pricing compared to other AI services, making it accessible for both individual users and businesses.",
   },
   {
-    title: "Why choose our landing page boilerplate?",
+    title: "Who is AllStack AI Chat for?",
     content:
-      "Our landing page template is free, open-source, and powerful, making it ideal for various projects and marketing campaigns. It allows you to create a landing page in under an hour, simplifying the development process while also offering a high degree of customization and responsiveness.",
+      "AllStack AI Chat is designed for both regular users who want an easy-to-use AI chat tool and developers who need API access for integration with their applications.",
   },
   {
-    title: "What skills do I need to use this template?",
+    title: "How do I get started?",
     content:
-      "To use our landing page template, you only need basic web editing skills. The design of the template is intended to be easy for non-technical users to get started with, while also providing high customizability for experienced developers.",
+      "Getting started is very simple. Just visit our website, choose your preferred AI model, and start chatting immediately. No complex setup required.",
   },
   {
-    title: "How do I get started with the landing page template?",
+    title: "Can developers integrate with their applications?",
     content:
-      "Getting started is very simple. Just download the source code from our GitHub repository, edit the text and images as needed, and then deploy it to your server.",
+      "Yes, we provide API support for developers to integrate our AI services into their applications, tools, or workflows.",
   },
   {
-    title: "Does the landing page template support responsive design?",
+    title: "Is the service reliable?",
     content:
-      "Yes, our landing page template supports responsive design, ensuring that your webpage displays perfectly on a variety of devices, whether desktop, tablet, or smartphone.",
-  },
-  {
-    title: "Can I use this template for a commercial project?",
-    content:
-      "Absolutely. Our template is open-source, and you can use it for any type of project, including commercial purposes. We encourage users to utilize this template to create and optimize their online projects.",
-  },
-  {
-    title: "Do you offer any customization services?",
-    content:
-      "We accept paid custom development of landing pages. Please contact us via email at weijunext@gmail.com or Twitter @weijunext.",
-  },
-  {
-    title: "Are there any restrictions on using this template?",
-    content:
-      "No. You are free to use and modify this template. At the same time, we encourage developers to submit PRs to help improve this landing page template together.",
-  },
-  {
-    title: "Does this template include SEO optimization features?",
-    content:
-      "Yes, our template includes basic SEO optimization features to help your webpage achieve better rankings in search engines.",
-  },
-  {
-    title: "What should I do if I encounter problems using the template?",
-    content:
-      "If you encounter any issues while using the template, please contact us via Twitter @weijunext.",
+      "Yes, we provide high-performance service with fast response times and reliable availability to ensure a smooth user experience.",
   },
 ];
 
 export const FAQS_ZH = [
   {
-    title: "什么是落地页？",
+    title: "什么是AllStack AI Chat？",
     content:
-      "落地页是为市场营销或广告活动专门创建的独立网页。访问者在点击电子邮件中的链接、Google、Bing、YouTube、Facebook、Instagram、Twitter或网络上类似位置的广告后“降落”到该页面上。与通常具有多个目标并鼓励探索的网页不同，落地页设计有单一焦点或目标，称为行动号召（CTA）。",
+      "AllStack AI Chat是一个集成国内外各种大模型的AI聊天工具。它为普通用户和开发者提供便宜好用的解决方案，在一个平台即可访问多种AI模型。",
   },
   {
-    title: "我如何创建一个落地页？",
+    title: "支持哪些AI模型？",
     content:
-      "创建落地页可以分几个步骤完成：1) 选择一个适合你活动需求的落地页模板，或从头开始。2) 确定你的落地页目标和CTA。3) 编写吸引访问者采取行动的引人注目的内容。4) 加入与你信息相符的设计元素，如图片、视频和表单。5) 测试你的页面的可用性和移动响应性。6) 使用SEO最佳实践帮助你的页面被发现。7) 发布你的落地页，并监控其性能以根据需要进行调整。",
+      "我们的平台支持广泛的热门AI模型，包括国内外的模型。您可以根据需要和偏好选择不同的模型。",
   },
   {
-    title: "为什么落地页很重要？",
+    title: "与其他AI服务相比是否便宜？",
     content:
-      "落地页对于任何营销策略都至关重要，因为它们提供了一个针对性的平台，用于将访问者转化为潜在客户或客户。与通用网站不同，落地页将访问者的注意力集中在单一优惠上，最小化分心并引导他们向特定行动发展。这种集中的方法可以显著提高你的营销活动的有效性，改善广告性能，并通过为他们提供他们正在寻找的信息或解决方案来增强总体用户体验。",
+      "是的，我们的服务设计为具有成本效益。我们提供比其他AI服务更具竞争力的价格，使其对个人用户和企业都具有可访问性。",
   },
   {
-    title: "为什么选择我们的落地页模板？",
+    title: "AllStack AI Chat适合谁？",
     content:
-      "我们的落地页模板是免费的、开源的且功能强大，非常适合各种项目和市场营销活动。它允许你在不到一小时内创建一个落地页，简化了开发过程，同时也提供了高度的自定义性和响应性。",
+      "AllStack AI Chat专为想要使用易于使用的AI聊天工具的普通用户和需要API访问以将其集成到应用程序中的开发者而设计。",
   },
   {
-    title: "使用这个模板我需要哪些技能？",
+    title: "如何开始使用？",
     content:
-      "使用我们的落地页模板，你只需要基本的网页编辑技能。该模板的设计旨在让非技术用户轻松上手，同时为有经验的开发者提供高度的自定义能力。",
+      "开始使用非常简单。只需访问我们的网站，选择您首选的AI模型，然后立即开始聊天。无需复杂的设置。",
   },
   {
-    title: "我如何开始使用落地页模板？",
+    title: "开发者可以将其集成到应用程序中吗？",
     content:
-      "开始非常简单。只需从我们的GitHub仓库下载源代码，根据需要编辑文本和图片，然后将其部署到你的服务器上。",
+      "是的，我们为开发者提供API支持，以便将我们的AI服务集成到他们的应用程序、工具或工作流程中。",
   },
   {
-    title: "落地页模板支持响应式设计吗？",
+    title: "服务可靠吗？",
     content:
-      "是的，我们的落地页模板支持响应式设计，确保你的网页在桌面、平板或智能手机等各种设备上完美显示。",
-  },
-  {
-    title: "我可以将这个模板用于商业项目吗？",
-    content:
-      "绝对可以。我们的模板是开源的，你可以将其用于任何类型的项目，包括商业用途。我们鼓励用户利用这个模板来创建和优化他们的在线项目。",
-  },
-  {
-    title: "你们提供定制服务吗？",
-    content:
-      "我们接受落地页的定制开发服务。请通过电子邮件weijunext@gmail.com或Twitter @weijunext与我们联系。",
-  },
-  {
-    title: "使用这个模板有任何限制吗？",
-    content:
-      "没有。你可以自由使用和修改这个模板。同时，我们鼓励开发者提交PR来共同帮助改进这个落地页模板。",
-  },
-  {
-    title: "这个模板包括SEO优化功能吗？",
-    content:
-      "是的，我们的模板包含基本的SEO优化功能，帮助你的网页在搜索引擎中获得更好的排名。",
-  },
-  {
-    title: "如果我在使用模板时遇到问题该怎么办？",
-    content:
-      "如果你在使用模板时遇到任何问题，请通过Twitter @weijunext 与我们联系。",
+      "是的，我们提供高性能服务，具有快速响应时间和可靠的可用性，以确保流畅的用户体验。",
   },
 ];
 
@@ -168,7 +118,7 @@ export const FAQS_JA = [
   {
     title: "カスタマイズサービスを提供していますか？",
     content:
-      "有料のランディングページのカスタム開発を受け付けています。メールweijunext@gmail.comまたはTwitter @weijunextでお問い合わせください。",
+      "有料のランディングページのカスタム開発を受け付けています。メールallstack@allstack.onlineまたはTwitter @weijunextでお問い合わせください。",
   },
   {
     title: "このテンプレートを使用する際に制限はありますか？",
@@ -232,7 +182,7 @@ export const FAQS_AR = [
   {
     title: "هل تقدمون خدمات تخصيص؟",
     content:
-      "نحن نقبل التطوير المخصص المدفوع لصفحات الهبوط. يرجى التواصل معنا عبر البريد الإلكتروني على weijunext@gmail.com أو تويتر @weijunext.",
+      "نحن نقبل التطوير المخصص المدفوع لصفحات الهبوط. يرجى التواصل معنا عبر البريد الإلكتروني على allstack@allstack.online أو تويتر @weijunext.",
   },
   {
     title: "هل هناك قيود على استخدام هذا القالب؟",
@@ -295,7 +245,7 @@ export const FAQS_ES = [
   {
     title: "¿Ofrecen servicios de personalización?",
     content:
-      "Aceptamos el desarrollo personalizado de páginas de destino a pedido. Por favor, contáctanos por correo electrónico a weijunext@gmail.com o en Twitter @weijunext.",
+      "Aceptamos el desarrollo personalizado de páginas de destino a pedido. Por favor, contáctanos por correo electrónico a allstack@allstack.online o en Twitter @weijunext.",
   },
   {
     title: "¿Hay alguna restricción para usar esta plantilla?",
@@ -358,7 +308,7 @@ export const FAQS_RU = [
   {
     title: "Предлагаете ли вы услуги по кастомизации?",
     content:
-      "Мы принимаем заказные разработки целевых страниц. Пожалуйста, свяжитесь с нами по электронной почте weijunext@gmail.com или в Twitter @weijunext.",
+      "Мы принимаем заказные разработки целевых страниц. Пожалуйста, свяжитесь с нами по электронной почте allstack@allstack.online или в Twitter @weijunext.",
   },
   {
     title: "Есть ли какие-либо ограничения на использование этого шаблона?",

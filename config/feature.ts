@@ -1,77 +1,77 @@
 import { LucideIcon, MagnetIcon } from "lucide-react";
 import { IconType } from "react-icons";
-import { BsGithub } from "react-icons/bs";
+import { BsChatDots } from "react-icons/bs";
 import { FaToolbox } from "react-icons/fa";
 import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
 import { MdCloudUpload } from "react-icons/md";
 
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
+    title: "Support Multiple AI Models",
+    content: "Access to various domestic and international large models in one platform.",
+    icon: BsChatDots,
   },
   {
-    title: "Responsive Design",
+    title: "Affordable Pricing",
     content:
-      "Templates meticulously designed to ensure optimal display on any device.",
+      "Cost-effective solution compared to other AI services.",
     icon: FaMobileScreenButton,
   },
   {
-    title: "Easy Customization",
+    title: "User-Friendly Interface",
     content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
+      "Simple and intuitive interface suitable for both regular users and developers.",
     icon: FaToolbox,
   },
   {
-    title: "SEO Optimized",
+    title: "High Performance",
     content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
+      "Fast response times and reliable service availability.",
     icon: MagnetIcon,
   },
   {
-    title: "One-Click Deployment",
+    title: "Easy Access",
     content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
+      "No complex setup required, start chatting immediately.",
     icon: MdCloudUpload,
   },
   {
-    title: "Globalization Support",
+    title: "Developer Friendly",
     content:
-      "Supports multiple languages, making your website attractive to a global audience.",
+      "API support for developers to integrate with their applications.",
     icon: FaEarthAsia,
   },
 ];
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
-    icon: BsGithub,
+    title: "支持多种AI模型",
+    content: "一站式访问国内外各种大模型。",
+    icon: BsChatDots,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
+    title: "价格实惠",
+    content: "相比其他AI服务，性价比更高。",
     icon: FaMobileScreenButton,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
+    title: "用户友好界面",
+    content: "简单直观的界面，适合普通用户和开发者。",
     icon: FaToolbox,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
+    title: "高性能",
+    content: "快速响应时间和可靠的服务可用性。",
     icon: MagnetIcon,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
+    title: "易于访问",
+    content: "无需复杂设置，立即开始聊天。",
     icon: MdCloudUpload,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
+    title: "开发者友好",
+    content: "为开发者提供API支持，便于集成到应用程序中。",
     icon: FaEarthAsia,
   },
 ];
@@ -80,7 +80,7 @@ export const FEATURES_JA = [
   {
     title: "オープンソースの利点",
     content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    icon: BsGithub,
+    icon: BsChatDots,
   },
   {
     title: "レスポンシブデザイン",
@@ -113,7 +113,7 @@ export const FEATURES_AR = [
   {
     title: "ميزة المصدر المفتوح",
     content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
-    icon: BsGithub,
+    icon: BsChatDots,
   },
   {
     title: "تصميم متجاوب",
@@ -146,7 +146,7 @@ export const FEATURES_ES = [
   {
     title: "Ventaja del Código Abierto",
     content: "Completamente gratuito con una riqueza de opciones de personalización.",
-    icon: BsGithub,
+    icon: BsChatDots,
   },
   {
     title: "Diseño Responsivo",
@@ -179,7 +179,7 @@ export const FEATURES_RU = [
   {
     title: "Преимущество Открытого Исходного Кода",
     content: "Полностью бесплатно с широкими возможностями настройки.",
-    icon: BsGithub,
+    icon: BsChatDots,
   },
   {
     title: "Адаптивный Дизайн",

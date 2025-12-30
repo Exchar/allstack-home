@@ -11,9 +11,9 @@ import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
 
 const links = [
-  { label: "Features", href: "#Features" },
-  { label: "Pricing", href: "#Pricing" },
-  { label: "Testimonials", href: "#Testimonials" },
+  { label: "特性", href: "#Features" },
+  { label: "定价", href: "#Pricing" },
+  { label: "使用者评价", href: "#Testimonials" },
   { label: "FAQ", href: "#FAQ" },
 ];
 

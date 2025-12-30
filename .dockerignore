@@ -1,18 +1,46 @@
-# Logs
-pnpm-debug.log
-README.md
-
-.next
+# Dependencies
 node_modules
 
-.dockerignore
-Dockerfile
+# Environment variables
+.env*
+!.env.example
 
-# Editor directories and files
+# Next.js
+.next
+out
+
+# IDE
 .vscode
-.github
-.git
-.DS_Store
+.idea
 
-# ignore docker saved images
-*.tar
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build outputs
+dist
+build
+
+# Git
+.git
+.gitignore
+
+# Tests
+coverage
+.nyc_output
+
+# Temporary files
+tmp
+temp
+
+# Documentation
+*.md
+docs/
+
+# Others
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

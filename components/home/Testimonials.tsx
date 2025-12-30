@@ -22,7 +22,7 @@ const Testimonials = ({ id, locale }: { id: string; locale: any }) => {
           {/* Don't take our word for it. Here's what they have to say. */}
           {locale.description1}{" "}
           <Link
-            href={siteConfig.authors[0].twitter as string}
+            href={siteConfig.authors[0]?.twitter || '' as string}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="text-primary underline"
@@ -52,13 +52,6 @@ const Testimonials = ({ id, locale }: { id: string; locale: any }) => {
                     </p>
                   </div>
                 </div>
-                <Link
-                  href={`https://twitter.com/${testimonial.user.username}`}
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                >
-                  <TwitterX className="w-8 h-8" />
-                </Link>
               </div>
               <p className="dark:text-zinc-200 text-[14px]">
                 {testimonial.content}

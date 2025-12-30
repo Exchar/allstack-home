@@ -44,9 +44,9 @@ const Pricing = ({
         <p className="text-large text-default-500">{locale.description}</p>
       </div>
       <Spacer y={8} />
-      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-items-center">
+      <div className="grid auto-cols-fr gap-2 justify-items-center">
         {TIERS?.map((tier) => (
-          <Card key={tier.key} className="p-3 flex-1 w-[90%]" shadow="md">
+          <Card key={tier.key} className="p-3 flex-1 w-[90%] hover:scale-105 transition-all" shadow="md">
             <CardHeader className="flex flex-col items-start gap-2 pb-6">
               <h2 className="text-large font-medium">{tier.title}</h2>
               <p className="text-medium text-default-500">{tier.description}</p>
@@ -91,15 +91,15 @@ const Pricing = ({
       <Spacer y={12} />
       <div className="flex py-2">
         <p className="text-default-400 text-center">
-          {locale.doYouLike}&nbsp;
-          <Link
-            color="foreground"
-            href={siteConfig.authors[0].twitter}
-            underline="always"
-            rel="noopener noreferrer nofollow"
-          >
-            {locale.follow}
-          </Link>
+          {/*{locale.doYouLike}&nbsp;*/}
+          {/*<Link*/}
+          {/*  color="foreground"*/}
+          {/*  href={siteConfig.authors[0]?.twitter}*/}
+          {/*  underline="always"*/}
+          {/*  rel="noopener noreferrer nofollow"*/}
+          {/*>*/}
+          {/*  {locale.follow}*/}
+          {/*</Link>*/}
         </p>
       </div>
     </section>

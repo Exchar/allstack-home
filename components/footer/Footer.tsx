@@ -18,8 +18,8 @@ const Footer = () => {
         <LangLinks />
         <div className="flex space-x-2">
           <div>{`©${currentYear}`}</div>{" "}
-          <Link href={authors[0].twitter || authors[0].url} target="_blank">
-            {authors[0].name}
+          <Link href={authors[0]?.twitter || authors[0]?.url} target="_blank">
+            {authors[0]?.name}
           </Link>{" "}
           <div>All rights reserved.</div>
         </div>

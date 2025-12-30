@@ -10,15 +10,17 @@ import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import "@/styles/loading.css";
 import { Analytics } from "@vercel/analytics/react";
-import { Viewport } from "next";
+import {Metadata, Viewport} from "next";
 import { Inter as FontSans } from "next/font/google";
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
+  display: "swap",
+  adjustFontFallback:false
 });
 
-export const metadata = {
+export const metadata:Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
   keywords: siteConfig.keywords,
@@ -33,13 +35,13 @@ export const viewport: Viewport = {
   themeColor: siteConfig.themeColors,
 };
 
-export default async function RootLayout({
-  children,
-  params: { lang },
-}: {
+export default async function RootLayout(props: {
   children: React.ReactNode;
-  params: { lang: string | undefined };
+  params: Promise<{ lang: string }>; // Define as a Promise
 }) {
+  const params = await props.params;
+  const lang = params.lang
+  const children = props.children;
   return (
     <html lang={lang || defaultLocale} suppressHydrationWarning>
       <head />
@@ -60,14 +62,14 @@ export default async function RootLayout({
           <Analytics />
           <TailwindIndicator />
         </ThemeProvider>
-        {process.env.NODE_ENV === "development" ? (
-          <></>
-        ) : (
-          <>
-            <GoogleAnalytics />
-            <BaiDuAnalytics />
-          </>
-        )}
+        {/*{process.env.NODE_ENV === "development" ? (*/}
+        {/*  <></>*/}
+        {/*) : (*/}
+        {/*  <>*/}
+        {/*    <GoogleAnalytics />*/}
+        {/*    <BaiDuAnalytics />*/}
+        {/*  </>*/}
+        {/*)}*/}
       </body>
     </html>
   );

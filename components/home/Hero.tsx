@@ -2,6 +2,7 @@ import { LineText } from "@/components/LineText";
 import CTAButton from "@/components/home/CTAButton";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = ({
   locale,
@@ -44,13 +45,9 @@ const Hero = ({
       <div className="flex justify-center gap-4">
         <CTAButton locale={CTALocale}></CTAButton>
         <Button variant="outline">
-          <Link href="https://nexty.dev/" className="flex items-center gap-2">
-            <img
-              src="/nexty-logo.png"
-              alt="Nexty.dev Logo"
-              className="w-4 h-4"
-            />{" "}
-            Get SaaS Boilerplate
+          <Link href="https://tools.allstack.online" target="_blank" className="flex items-center gap-2">
+            使用其它工具 
+            <Image width="24" height="24" src={'/images/thinking.png'} alt="thinking"></Image>
           </Link>
         </Button>
       </div>

@@ -2,7 +2,7 @@
 
 🚀 Looking for a full-featured SaaS Starter Kit? [Check out the Next.js SaaS Template](https://nexty.dev)
 
-# [Landing page boilerplate](https://landingpage.weijunext.com/)
+# [AllStack](https://landingpage.weijunext.com/)
 
 An open-source, free, and beautifully designed landing page template. By simply replacing or adjusting the icons and text, you can publish your own product landing page.
 
@@ -14,11 +14,11 @@ Blog:
 [我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
 [我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)
 
-[![Landing page boilerplate](./public/og.png)](https://landingpage.weijunext.com/)
+[![AllStack](./public/og.png)](https://landingpage.weijunext.com/)
 
 ## Tech Stack
 
-Landing page boilerplate is built on the following stack:
+AllStack is built on the following stack:
 
 - Next.js – Frontend/Backend
 - TailwindCSS – Styles
@@ -53,13 +53,43 @@ Deploy the example using Vercel or Zeabur:
 
 ## Generate a Docker image and deploy it to the server
 
-Generate a Docker image and deploy it to the server
+### Using npm scripts
+
+Build and generate a Docker image with one command:
 
 ```bash
 npm run docker
 ```
 
-A Docker image named landing-page-boilerplate.tar will be generated in the root directory, and then the image will be deployed to the server using Docker commands.
+This will build the application, run postbuild scripts, create a Docker image named `allstack-home`, and save it as `allstack-home.tar` in the root directory.
+
+### Using Docker Compose (Recommended)
+
+For easier deployment, use Docker Compose:
+
+```bash
+# Build and start the service in detached mode
+npm run docker:compose-up
+
+# Or directly with docker-compose
+docker-compose up -d
+```
+
+### Manual Docker deployment
+
+```bash
+# Build the image
+npm run docker:build
+# or
+docker build -t allstack-home .
+
+# Run the container
+npm run docker:run
+# or
+docker run -d --name allstack-home-container -p 3000:3000 allstack-home
+```
+
+For more detailed deployment instructions, see [DOCKER-DEPLOYMENT.md](./DOCKER-DEPLOYMENT.md).
 
 ## About Me
 
